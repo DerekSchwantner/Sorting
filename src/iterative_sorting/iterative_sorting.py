@@ -13,7 +13,7 @@ def selection_sort(arr):
 
 
         # TO-DO: swap
-            arr[smallest_index],arr[cur_index] = arr[cur_index],arr[smallest_index]
+        arr[smallest_index],arr[cur_index] = arr[cur_index],arr[smallest_index]
 
     return arr
 
@@ -30,8 +30,9 @@ def count_sort( arr, maximum=-1 ):
     return arr
 
 unsrted_nums = [44, 53, 2, 1, 600, 76, 23, 90]
+unsrted_names = ["don", "al", "zed", "tim", "babs", "carl", "frank", "lucy"]
 
-print(selection_sort(unsrted_nums))
+print(selection_sort(unsrted_names))
 
 
 

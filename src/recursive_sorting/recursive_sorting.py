@@ -37,7 +37,7 @@ def merge_sort( arr ):
 
     return arr
 
-test = [3, 79, 99, 54, 1, 4, 6, 11]
+test = [3, 79, 99, 54, 1, 4, 6, 122]
 print(merge_sort(test))
 
 # STRETCH: implement an in-place merge sort algorithm

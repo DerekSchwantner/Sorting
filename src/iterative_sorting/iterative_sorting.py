@@ -12,7 +12,7 @@ def selection_sort(arr):
         # (hint, can do in 3 loc) 
         for n in range(i, len(arr)):
             if arr[n] < arr[smallest_index]:
-                print(f"swapped: {arr[smallest_index]} for {arr[n]}")
+                # print(f"swapped: {arr[smallest_index]} for {arr[n]}")
                 smallest_index = n
 
 
@@ -27,7 +27,6 @@ def selection_sort(arr):
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
     for i in range(0, len(arr) - 1):
-        print(arr[i])
         count = 0
         for n in range(0, len(arr) - 1):
             if arr[n] > arr[n + 1]:
